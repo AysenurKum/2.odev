@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benim Portföyüm</title>
+    <link rel="icon" type="image/x-icon" href="adb1e5b6-906f-4925-8a20-b774cd78d92e.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Benim Portföyüm </h1>
+    <ul>
+      <li><a href="#1">Hakkımda</a></li>
+      <li><a href="#2">Beceriler</a></li>
+      <li><a href="#3">Projeler</a></li>
+      <li><a href="#4">İletişim</a></li>
+    </ul>
+    
+    <h2 id="1">Hakkımda</h2>
+    <img src="adb1e5b6-906f-4925-8a20-b774cd78d92e.jpg" width="150" height="225">
+    <p> Merhaba,ben Ayşenur Kum.HTML,CSS,JavaScript alanında deneyimli bir web geliştiricisiyim.Birçok web sitesi ve uygulama geliştirdim ve becerilerimi geliştirmeye ve yeni zorluklarla karşılaşmaya her zaman hazırım.</p>
+
+    <h2 id="2"> Beceriler </h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Bootstrap</li>
+        <li>React</li>
+    </ul>
+
+    <h2 id="3">Projeler</h2>
+
+    <table border="2" style="border-collapse: collapse;" width="100%" height="150"> 
+        <thead>
+            <tr>
+            <th align="center">Proje Adı</th>
+            <th>Kısa Açıklama</th>
+            <th>Link</th>
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td align="center">Proje 1</td>
+            <td align="center">Bu projemin adı 'Kum Ailesi Biyografi'.Bu projemde çekirdek ailemden bahsettim.Onların hayatı doğum tarihi gibi bilgileri verdim.</td>
+            <td align="center"> <a href="https://github.com/AysenurKum/tekrar/commit/f885ce77d52bf3d9dc6dbb778f345b39c2f79eb4" target="_blank">Görüntüle</a></td>
+           </tr>
+           <tr>
+            <td align="center">Proje 2</td>
+            <td align="center">Bu projemin adı 'Kişilik Anketi'.Bu projemde insanların kişiliğini değerlendiren bir anket yapmak istedim.</td>
+            <td align="center"><a href="https://github.com/AysenurKum/ANKET" target="_blank">Görüntüle</a></td>
+           </tr>
+           <tr>
+            <td align="center">Proje 3</td>
+            <td align="center">Bu projemin adı 'Ben Kimim?'.Bu projemde kendim hakkında olabildiğince detaylı bilgiler verdim.</td>
+            <td align="center"><a href="https://github.com/AysenurKum/Tan-t-m" target="_blank">Görüntüle</a></td>
+           </tr>
+        </tbody>
+    </table>
+
+    <h2 >Proje 1 </h2>
+    <p>Bu projede kendi ailemden bahsettim.Annem,babam,ablam ve beni konu alan bir proje oldu.Ailemin hayatından başına gelen şeylerden biraz bilgiler verdim.Projemde HTML kullandım.HTML üzerinden projemde renklendirmeler ve yazı stilleri kullandım.Yazı stilini italik olarak kullanmayı tercih ettim.Fotoğraf eklemeleri yaptım.</p>
+
+    <h2>Proje 2</h2>
+    <p>Bu projemde kişilik anketi oluşturdum.Projemde HTML kullandım.Projeme HTML radio,HTML textarea,HTML dropdown vb. şeyler kullandım.Projemde işaretleme ve yazı yazma kısımları bulunmakta.Kimin doldurduğunu öğrenebilmek için ad,soyad,doğum tarihi,doğum yeri gibi bilgileri yazabilecekleri inputlar girdim.Cinsiyet seçimi için dropdown ekledim.İnsanları anlayabilmek için bu projemi oluşturdum.</p>
+
+    <h2>Proje 3</h2>
+    <p>Bu projemde kendimden detaylıca bahsettim.Projemin içeriğinde giriş kısmı,kişilik özelliklerim,aile hayatım,okul hayatım,güncel hayatım,ilgi alanlarım ve sevdiğim müzikler bulunmakta.Son olarakta tanıtımımı puanlama ve değerlendirme kısmı bulunmaktadır.Projemde ağırlıklı olarak HTML,birazda CSS kullandım.Projemin içeriğinde arkaplan renklendirmeleri,yazı stili değişiklikleri yaptım.Yazı stilini italik olarak kullanmayı tercih ettim.Textleri ve fotoğrafları yerini merkezi olarak kullanmayı tercih ettim.Fotoğraflar ve videolar ekledim.Son puan ve değerlendirme kısmında da HTML radio,HTML dropdown,HTML textarea vb. şeyler kullandım.Sayfa sonuna iletişim adreslerimi ekledim.Onun üzerine de eğer bu tanıtımı okuyan insanların böyle projesi varsa eklemesini sağlayacak dosya ekleme bölümünü koydum.</p>
+
+    <h2 id="4">İletişim</h2>
+    <form>
+        <label>Ad Soyad:</label>
+        <input type="text" name="adsoyad" id="adsoyad">
+        <label>Email:</label>
+        <input type="text" name="email" id="email">
+        <label>Mesaj:</label>
+        <textarea rows="1"></textarea>
+        <button type="button" onclick="alert('Teşekkürler &#128522;') "> Gönder </button>
+    </form>
+
+    <p>Copyright &copy; 2023 My Portfolio </p>
+
+</body>
+</html>
